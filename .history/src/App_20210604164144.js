@@ -8,9 +8,8 @@ function App() {
   const fetchApi = async () => {
     const response = await fetch(url);
     console.log(response.status);
-    const responseJSON = await response.json();
+    const responseJSON = response.json();
     setData(responseJSON);
-    console.log(responseJSON);
   };
   useEffect(() => {
     fetchApi();

@@ -1,16 +1,13 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import "./App.css";
+import data from "./data.js";
 
 function App() {
   const url =
     "https://5d8cdb5a443e3400143b4bea.mockapi.io/corebizchile/products";
-  const [data, setData] = useState();
   const fetchApi = async () => {
     const response = await fetch(url);
     console.log(response.status);
-    const responseJSON = await response.json();
-    setData(responseJSON);
-    console.log(responseJSON);
   };
   useEffect(() => {
     fetchApi();
