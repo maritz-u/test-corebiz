@@ -1,0 +1,47 @@
+footer{
+    background-color:#000000;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+footer div{
+    width: 25%;
+    margin: 0 2%;
+}
+
+
+.footerAddres > hr {
+    width:20%;
+    height: .125rem;
+    background-color: #fff;
+    margin:0;
+    text-align: left;
+    padding-top: 2%;
+}
+
+.footerAddres > p:nth-child(1){
+    font-weight: 600;
+}
+
+.footerAddres > p{
+    line-height: 2rem;
+}
+
+.Copyright{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Copyright > div{
+    width: 30%;
+    font-weight: 300;
+    font-size: .6rem;
+}
+
+.Copyright>div>span{
+    display: block;
+}

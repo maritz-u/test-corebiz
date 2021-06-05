@@ -1,0 +1,28 @@
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  height: 200px;
+  align-content: space-between;
+  justify-content:  space-around;
+  align-items: center;
+}
+
+header > div {
+    flex: 1;
+    padding: 1em;
+}
+
+.search {
+    display: block;
+    width: 30vw;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid #ccc !important;
+    font-size: 10pt;
+    color: #63717f;
+}
+.account {
+    display: inline-block;
+    white-space: nowrap;
+}
